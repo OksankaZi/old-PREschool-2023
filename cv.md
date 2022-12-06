@@ -11,7 +11,7 @@
 
 ---
 
-About Me:
+## About Me:
 
 My name is Oksana. I am 33 years old.
 
@@ -23,7 +23,7 @@ I look forward to exploring the new knowledge RSSchool is kindly providing and w
 
 ---
 
-Skills:
+## Skills:
 
 - Git, GitHub
 - VS Code
@@ -32,19 +32,20 @@ Skills:
 
 ---
 
-Code Example:
+## Code Example:
 
 ```
 const isGoodNickname = (nickname) => {
   const length = nickname.length;
   return length > 3 && length < 15;
 };
+
 isGoodNickname ('Fan');
 ```
 
 ---
 
-Work experience:
+## Work experience:
 
 - **LTD Company "Lex Torg", Gomel**
   - manager of retail department (2006 - 2007)
@@ -55,7 +56,7 @@ Work experience:
 
 ---
 
-Education:
+## Education:
 
 - **Belarusian Trade and Economics University of Consumer Cooperatives, Gomel**
   - Management of Foreign Economic Activity, spaciality "World Economics" (2006 - 2011)
@@ -64,7 +65,7 @@ Education:
 
 ---
 
-Languages:
+## Languages:
 
 - Russian - Native
 - English - Intermediate (according to the online test at EFset Logo [www.efset.org](https://www.efset.org/quick-check/))
