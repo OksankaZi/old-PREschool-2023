@@ -1,1 +1,7 @@
-/*New file*/
+@font-face {
+   font-family: Roboto-Thin;
+    src: url("assets/fonts/Roboto-Thin.ttf");
+  }
+body {
+   font-family: Roboto-Thin;
+}
