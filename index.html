@@ -5,19 +5,122 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="styleshee" href="style.css">
+   <link rel="t" href="style.css">
    <link rel="icon" href="assets/favicon.ico">
    <title>cv</title>
 </head>
 
 <body>
-   <header>
+   <header class="header">
       <img src="assets/Avatar.png" alt="Аватарка" width="120">
+      <nav class="nav">
+         <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#code" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#work" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#education" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link"></a></li>
+         </ul>
+      </nav>
+      <div class="container"></div>
    </header>
 
-   <main>
+   <main class="main">
+      <section class="section" id="profile">
+         <div class="container">
+            <h1 class="section-title">Oksana Zimenko</h1>
+         </div>
+      </section>
 
+      <section class="section" id="contacts">
+         <div class="container">
+            <h2 class="section-contacts">Contacts:</h2>
+            <ul>
+               <li><span>Phone:</span> +375 33 682-40-61</li>
+               <li><span>Telegram:</span> <a href="https://tlgg.ru/Osa_Zi">Osa_Zi</a></li>
+               <li><span>E-mail:</span> <a href="mailto:oksanka.zimenko@gmail.com">oksanka.zimenko@gmail.com</a></li>
+               <li><span>GitHub:</span> <a href="https://github.com/OksankaZi">OksankaZi</a></li>
+               <li><span>Discord:</span> <a href="https://discordapp.com/users/992731927368974427">OksankaZi#9033</a>
+               </li>
+               <li><span>Location:</span> Gomel, Belarus</li>
+            </ul>
+         </div>
+      </section>
+
+      <section class="section" id="summary">
+         <div class="container">
+            <h2 class="section-summary">Summary</h2>
+            <p>My name is Oksana. I am 33 years old.</p>
+            <p>After completing my university degree, I got a job in sales industry. Working as a sales manager for a
+               while I have shown commitment to my daily duties, with a big desire to learn and develop new skills which
+               resulted in a promotion to a higher position as a of head of the wholesale department.</p>
+            <p>Despite enjoying working in the sales department and having a successful career I do like to explore new
+               opportunities and skills in other fields too. I believe I have a naturally organized mindset and great
+               eye for detail when it comes to working with data structures and algorithms. For this reason, I would
+               like to change my career for something I would enjoy more, which is learning to become a Front-End
+               developer. This will offer endless opportunities and personal development which I seek in my life.</p>
+            <p>I look forward to exploring the new knowledge RSSchool is kindly providing and will work extremely hard
+               in becoming a Front-End developer!</p>
+         </div>
+      </section>
+
+      <section class="section" id="skills">
+         <div class="container">
+            <h2 class="section-skills">Skills</h2>
+            <ul>
+               <li>Git, GitHub</li>
+               <li>VS Code</li>
+               <li>HTML5</li>
+               <li>CSS3 (in progress)</li>
+               <li>JavaScript Basics (in progress)</li>
+            </ul>
+         </div>
+      </section>
+
+      <section class="section" id="code">
+         <div class="container">
+            <h2 class="section-code">Code</h2>
+            <pre>
+            <code>
+               <code>
+                  const isGoodNickname = (nickname) => {
+                     const length = nickname.length;
+                     return length > 3 && length < 15;
+                   };     
+                              
+                   isGoodNickname ('Fan');
+               </code>
+            </code>
+           </pre>
+         </div>
+      </section>
+
+      <section class="section" id="work">
+         <div class="container">
+            <h2 class="section-work"></h2>
+         </div>
+      </section>
+
+      <section class="section" id="education">
+         <div class="container">
+            <h2 class="section-education"></h2>
+         </div>
+      </section>
+
+      <section class="section" id="languages">
+         <div class="container">
+            <h2 class="section-languages"></h2>
+         </div>
+      </section>
    </main>
+
+   <footer class="footer">
+      <div class="container">
+
+      </div>
+   </footer>
 </body>
 
 </html>
