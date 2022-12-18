@@ -11,7 +11,7 @@
 
 ---
 
-## About Me:
+## Summary:
 
 My name is Oksana. I am 33 years old.
 
@@ -32,7 +32,7 @@ I look forward to exploring the new knowledge RSSchool is kindly providing and w
 
 ---
 
-## Code Example:
+## Code:
 
 ```
 const isGoodNickname = (nickname) => {
@@ -45,7 +45,7 @@ isGoodNickname ('Fan');
 
 ---
 
-## Work experience:
+## Work:
 
 - **LTD Company "Lex Torg", Gomel**
   - manager of retail department (2006 - 2007)
@@ -61,7 +61,7 @@ isGoodNickname ('Fan');
 - **Belarusian Trade and Economics University of Consumer Cooperatives, Gomel**
   - Management of Foreign Economic Activity, spaciality "World Economics" (2006 - 2011)
 - **RS Schools Course**
-  - JavaScript/Frontend Pre-School 2022Q2 (in progress)
+  - JavaScript/Frontend Pre-School 2022Q4 (in progress)
 
 ---
 
