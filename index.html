@@ -12,30 +12,29 @@
 
 <body>
    <header class="header">
-      <img src="assets/Avatar.png" alt="Аватарка" width="120">
-      <nav class="nav">
-         <ul class="nav-list">
-            <li class="nav-item"><a href="#contacts" class="nav-link"></a></li>
-            <li class="nav-item"><a href="#summary" class="nav-link"></a></li>
-            <li class="nav-item"><a href="#skills" class="nav-link"></a></li>
-            <li class="nav-item"><a href="#code" class="nav-link"></a></li>
-            <li class="nav-item"><a href="#work" class="nav-link"></a></li>
-            <li class="nav-item"><a href="#education" class="nav-link"></a></li>
-            <li class="nav-item"><a href="#languages" class="nav-link"></a></li>
-         </ul>
-      </nav>
-      <div class="container"></div>
+      <section class="section-title" id="profile">
+         <div class="container">
+            <h1 class="section-title"><i>Oksana Zimenko</i></h1>
+            <img src="assets/Avatar.png" alt="Аватарка" width="120">
+            <nav class="nav">
+               <ul class="nav-list">
+                  <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+               </ul>
+            </nav>
+         </div>
+      </section>
    </header>
 
    <main class="main">
-      <section class="section" id="profile">
-         <div class="container">
-            <h1 class="section-oksana">Oksana Zimenko</h1>
-         </div>
-      </section>
-
-      <section class="section" id="contacts">
-         <div class="container">
+      <section class="section-title" id="contacts">
+         <div class="main-container">
             <h2 class="section-contacts">Contacts:</h2>
             <ul>
                <li><span>Phone:</span> +375 33 682-40-61</li>
@@ -49,25 +48,28 @@
          </div>
       </section>
 
-      <section class="section" id="summary">
-         <div class="container">
+      <section class="section-title" id="summary">
+         <div class="main-container">
             <h2 class="section-summary">Summary:</h2>
             <p>My name is Oksana. I am 34 years old.</p>
             <p>After completing my university degree, I got a job in sales industry. Working as a sales manager for a
-               while I have shown commitment to my daily duties, with a big desire to learn and develop new skills which
+               while I have shown commitment to my daily duties, with a big desire to learn and develop new skills
+               which
                resulted in a promotion to a higher position as a of head of the wholesale department.</p>
-            <p>Despite enjoying working in the sales department and having a successful career I do like to explore new
+            <p>Despite enjoying working in the sales department and having a successful career I do like to explore
+               new
                opportunities and skills in other fields too. I believe I have a naturally organized mindset and great
                eye for detail when it comes to working with data structures and algorithms. For this reason, I would
                like to change my career for something I would enjoy more, which is learning to become a Front-End
                developer. This will offer endless opportunities and personal development which I seek in my life.</p>
-            <p>I look forward to exploring the new knowledge RSSchool is kindly providing and will work extremely hard
+            <p>I look forward to exploring the new knowledge RSSchool is kindly providing and will work extremely
+               hard
                in becoming a Front-End developer!</p>
          </div>
       </section>
 
-      <section class="section" id="skills">
-         <div class="container">
+      <section class="section-title" id="skills">
+         <div class="main-container">
             <h2 class="section-skills">Skills:</h2>
             <ul>
                <li>Git, GitHub</li>
@@ -79,24 +81,25 @@
          </div>
       </section>
 
-      <section class="section" id="code">
-         <div class="container">
-            <h2 class="section-code">Code:</h2>
-            <pre>
-               <code>
-                  const isGoodNickname = (nickname) => {
-                     const length = nickname.length;
-                     return length > 3 && length < 15;
-                  };     
-
-                  isGoodNickname ('Fan');
-               </code>
-            </pre>
+      <section class="section-title" id="code">
+         <div class="main-container">
+            <h2 class="section-code">Code:
+               <pre>
+                  <code>
+                     const isGoodNickname = (nickname) => {
+                        const length = nickname.length;
+                        return length > 3 && length < 15;
+                     };     
+   
+                     isGoodNickname ('Fan');
+                  </code>
+               </pre>
+            </h2>
          </div>
       </section>
 
-      <section class="section" id="work">
-         <div class="container">
+      <section class="section-title" id="work">
+         <div class="main-container">
             <h2 class="section-work">Work:</h2>
             <ul>
                <li>LTD Company <a href="https://www.lexs.by/">"Lex's Torg"</a>, Gomel
@@ -115,8 +118,8 @@
          </div>
       </section>
 
-      <section class="section" id="education">
-         <div class="container">
+      <section class="section-title" id="education">
+         <div class="main-container">
             <h2 class="section-education">Education:</h2>
             <ul>
                <li>Belarusian Trade and Economics University of Consumer Cooperatives, Gomel
@@ -134,8 +137,8 @@
          </div>
       </section>
 
-      <section class="section" id="languages">
-         <div class="container">
+      <section class="section-title" id="languages">
+         <div class="main-container">
             <h2 class="section-languages">Languages:</h2>
             <ul>
                <li>Russian - Native</li>
@@ -148,7 +151,12 @@
 
    <footer class="footer">
       <div class="container">
-
+         <p class="githab"><a href="https://github.com/OksankaZi">OksankaZi</a></p>
+         <p class="time"><time datetime="2022">2022</time></p>
+         <p class="link">Free course <a
+               href="https://rs.school/images/rs_school_js.svg">JavaScript/Front-end</a><br>(from the
+            Rolling Scopes community)</p>
+         <p class="logo"><img src="https://rs.school/images/rs_school_js.svg" alt="Logo" width="160"></p>
       </div>
    </footer>
 </body>
